@@ -1,5 +1,4 @@
 {
-  "homepage": "https://abuhasan60a2.github.io/budget-expense-tracker",
   "name": "budget-expense-tracker",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +14,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm start build",
-    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,6 +37,5 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
